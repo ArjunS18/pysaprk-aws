@@ -1,4 +1,7 @@
 # pysaprk-aws
+
+Used Databricks and created a spark job on multi node cluster for generating city and prescriber report and stored the result in AWS S3 bucket.
+
 Brief overview of the project:
 The client requires a report that displays the total number of transactions for each city and the distinct number of subscribers for that city. However, the report should only include cities with prescribers. And that's not all - you'll also need to create a prescriber report that showcases the top 10 prescribers based on transaction count, with 20 to 50 years of experience.
 
